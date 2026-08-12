@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="orbit-title orbit-desc">
+  <title id="orbit-title">Orbit CRM</title>
+  <desc id="orbit-desc">Abstract orbital customer network visualization.</desc>
+  <defs>
+    <radialGradient id="orbit-bg" cx="0" cy="0" r="1" gradientTransform="translate(402 230) rotate(90) scale(360 570)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102A42"/>
+      <stop offset=".48" stop-color="#081522"/>
+      <stop offset="1" stop-color="#03070E"/>
+    </radialGradient>
+    <linearGradient id="orbit-line" x1="218" y1="90" x2="594" y2="408" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#70F5EA"/>
+      <stop offset=".5" stop-color="#00C2B8"/>
+      <stop offset="1" stop-color="#3D7EFF"/>
+    </linearGradient>
+    <filter id="orbit-blur" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#orbit-bg)"/>
+  <circle cx="406" cy="231" r="111" fill="#00C2B8" opacity=".08" filter="url(#orbit-blur)"/>
+  <g fill="none" transform="rotate(-8 406 231)">
+    <ellipse cx="406" cy="231" rx="226" ry="82" stroke="url(#orbit-line)" stroke-width="1.5" opacity=".52"/>
+    <ellipse cx="406" cy="231" rx="178" ry="145" stroke="#3D7EFF" stroke-opacity=".25"/>
+    <ellipse cx="406" cy="231" rx="112" ry="198" stroke="#00C2B8" stroke-opacity=".18" transform="rotate(52 406 231)"/>
+  </g>
+  <g stroke="#8B9BB4" stroke-opacity=".24">
+    <path d="M406 231L251 154M406 231l167-83M406 231l141 135M406 231l-181 92"/>
+  </g>
+  <g>
+    <circle cx="406" cy="231" r="47" fill="#0E1A2C" stroke="url(#orbit-line)" stroke-width="2"/>
+    <circle cx="406" cy="231" r="18" fill="#00C2B8" opacity=".75"/>
+    <path d="M397 235c4-13 18-13 22 0" fill="none" stroke="#EFFFFE" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="408" cy="224" r="5" fill="#EFFFFE"/>
+  </g>
+  <g fill="#0E1A2C" stroke-width="2">
+    <circle cx="251" cy="154" r="18" stroke="#70F5EA"/>
+    <circle cx="573" cy="148" r="14" stroke="#3D7EFF"/>
+    <circle cx="547" cy="366" r="20" stroke="#00C2B8"/>
+    <circle cx="225" cy="323" r="12" stroke="#3D7EFF"/>
+  </g>
+  <g fill="#70F5EA">
+    <circle cx="251" cy="154" r="4"/>
+    <circle cx="547" cy="366" r="5"/>
+  </g>
+  <text x="42" y="448" fill="#F2F6FC" font-family="Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="3">ORBIT CRM</text>
+  <text x="42" y="472" fill="#8B9BB4" font-family="Arial, sans-serif" font-size="10" letter-spacing="2">CUSTOMER INTELLIGENCE</text>
+</svg>

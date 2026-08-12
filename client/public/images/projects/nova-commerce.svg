@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="nova-title nova-desc">
+  <title id="nova-title">Nova Commerce</title>
+  <desc id="nova-desc">Abstract luminous commerce interface in deep navy, teal, and blue.</desc>
+  <defs>
+    <linearGradient id="nova-bg" x1="90" y1="30" x2="710" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10233A"/>
+      <stop offset=".48" stop-color="#07111F"/>
+      <stop offset="1" stop-color="#03070E"/>
+    </linearGradient>
+    <linearGradient id="nova-accent" x1="245" y1="115" x2="570" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#70F5EA"/>
+      <stop offset=".5" stop-color="#00C2B8"/>
+      <stop offset="1" stop-color="#3D7EFF"/>
+    </linearGradient>
+    <filter id="nova-glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+    <pattern id="nova-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#90A7C7" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#nova-bg)"/>
+  <rect width="800" height="500" rx="24" fill="url(#nova-grid)"/>
+  <circle cx="420" cy="244" r="130" fill="#00C2B8" opacity=".13" filter="url(#nova-glow)"/>
+  <g fill="none" stroke-linecap="round">
+    <ellipse cx="415" cy="242" rx="225" ry="92" stroke="#00C2B8" stroke-width="2" opacity=".24" transform="rotate(-13 415 242)"/>
+    <ellipse cx="415" cy="242" rx="184" ry="76" stroke="#3D7EFF" opacity=".22" transform="rotate(24 415 242)"/>
+  </g>
+  <g transform="translate(252 110)">
+    <rect width="296" height="270" rx="18" fill="#0E1A2C" fill-opacity=".86" stroke="#FFFFFF" stroke-opacity=".12"/>
+    <rect x="20" y="22" width="104" height="9" rx="4.5" fill="#F2F6FC" opacity=".78"/>
+    <circle cx="260" cy="27" r="9" fill="#00C2B8" opacity=".8"/>
+    <rect x="20" y="57" width="256" height="128" rx="12" fill="url(#nova-accent)" opacity=".17"/>
+    <path d="M55 151l55-48 43 31 68-54" fill="none" stroke="url(#nova-accent)" stroke-width="4"/>
+    <circle cx="221" cy="80" r="7" fill="#70F5EA"/>
+    <rect x="20" y="207" width="78" height="42" rx="8" fill="#FFFFFF" fill-opacity=".06"/>
+    <rect x="109" y="207" width="78" height="42" rx="8" fill="#FFFFFF" fill-opacity=".06"/>
+    <rect x="198" y="207" width="78" height="42" rx="8" fill="#00C2B8" fill-opacity=".18"/>
+  </g>
+  <circle cx="641" cy="151" r="6" fill="#70F5EA"/>
+  <text x="42" y="448" fill="#F2F6FC" font-family="Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="3">NOVA COMMERCE</text>
+  <text x="42" y="472" fill="#8B9BB4" font-family="Arial, sans-serif" font-size="10" letter-spacing="2">DIGITAL RETAIL ECOSYSTEM</text>
+</svg>

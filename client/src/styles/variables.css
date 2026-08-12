@@ -1,0 +1,112 @@
+:root {
+  color-scheme: light;
+
+  /* Brand — MADAR logo navy + gold on white */
+  --color-primary: #a67c40;
+  --color-primary-bright: #c4a05a;
+  --color-primary-deep: #8f6834;
+  --color-primary-soft: rgba(166, 124, 64, 0.12);
+  --color-secondary: #213e5e;
+  --color-navy: #213e5e;
+  --color-navy-deep: #162a41;
+
+  --color-bg: #ffffff;
+  --color-bg-soft: #f7f8fa;
+  --color-bg-muted: #eef2f6;
+  --color-bg-elevated: #ffffff;
+  --color-bg-card: #ffffff;
+  --color-surface: #f4f6f9;
+
+  /* aliases kept for existing CSS */
+  --color-bg-dark: #ffffff;
+  --color-bg-darker: #f7f8fa;
+  --color-bg-light: #ffffff;
+
+  --color-text: #213e5e;
+  --color-text-muted: #5f738a;
+  --color-text-dark: #162a41;
+  --color-border: rgba(33, 62, 94, 0.1);
+  --color-border-strong: rgba(166, 124, 64, 0.35);
+  --color-glow: rgba(166, 124, 64, 0.22);
+
+  --gradient-hero:
+    radial-gradient(circle at 12% 8%, rgba(166, 124, 64, 0.12), transparent 32%),
+    radial-gradient(circle at 88% 12%, rgba(33, 62, 94, 0.08), transparent 34%),
+    linear-gradient(180deg, #ffffff 0%, #f7f8fa 100%);
+  --gradient-card: linear-gradient(160deg, #ffffff 0%, #f8fafc 100%);
+  --gradient-accent: linear-gradient(120deg, #d4b36a, #a67c40 55%, #8f6834);
+  --gradient-border: linear-gradient(135deg, rgba(166, 124, 64, 0.45), rgba(33, 62, 94, 0.12));
+
+  --font-display: "Syne", sans-serif;
+  --font-body: "Manrope", sans-serif;
+  --font-sans: var(--font-body);
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-md: 1.125rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: clamp(1.75rem, 4vw, 2.5rem);
+  --font-size-3xl: clamp(2.1rem, 5vw, 4rem);
+  --font-size-hero: clamp(2.35rem, 8vw, 6.5rem);
+
+  --line-height-tight: 1.05;
+  --line-height-heading: 1.15;
+  --line-height-body: 1.7;
+  --letter-spacing-tight: -0.035em;
+  --letter-spacing-wide: 0.12em;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --section-space: clamp(3.5rem, 8vw, 7.5rem);
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.25rem;
+  --radius-pill: 999px;
+
+  --shadow-sm: 0 8px 24px rgba(33, 62, 94, 0.06);
+  --shadow-md: 0 18px 50px rgba(33, 62, 94, 0.08);
+  --shadow-lg: 0 28px 80px rgba(33, 62, 94, 0.12);
+  --shadow-glow: 0 0 40px var(--color-glow);
+  --shadow-inset: inset 0 1px 0 rgba(255, 255, 255, 0.8);
+
+  --container: 1240px;
+  --container-sm: 48rem;
+  --container-md: 64rem;
+  --container-lg: 75rem;
+  --container-xl: 87.5rem;
+  --container-gutter: clamp(1.1rem, 4.2vw, 3rem);
+  --page-gutter: clamp(1.1rem, 4.2vw, 3rem);
+  --header-height: 5.25rem;
+  --mobile-cta-height: 0px;
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+
+  --transition-fast: 160ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  --transition-base: 280ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  --transition-slow: 560ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  --z-base: 0;
+  --z-elevated: 10;
+  --z-sticky: 100;
+  --z-overlay: 500;
+  --z-modal: 1000;
+  --z-toast: 1100;
+}
+
+@media (max-width: 900px) {
+  :root {
+    --header-height: 4.75rem;
+    --section-space: clamp(3rem, 10vw, 4.5rem);
+  }
+}

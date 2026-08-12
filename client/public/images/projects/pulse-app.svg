@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="pulse-title pulse-desc">
+  <title id="pulse-title">Pulse App</title>
+  <desc id="pulse-desc">Abstract mobile wellness interface with a luminous pulse signal.</desc>
+  <defs>
+    <linearGradient id="pulse-bg" x1="50" y1="20" x2="750" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset=".55" stop-color="#0A1A2B"/>
+      <stop offset="1" stop-color="#03070E"/>
+    </linearGradient>
+    <linearGradient id="pulse-accent" x1="305" y1="100" x2="505" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#70F5EA"/>
+      <stop offset=".45" stop-color="#00C2B8"/>
+      <stop offset="1" stop-color="#3D7EFF"/>
+    </linearGradient>
+    <filter id="pulse-glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#pulse-bg)"/>
+  <path d="M0 126C150 85 219 165 354 126S601 75 800 134" fill="none" stroke="#3D7EFF" stroke-opacity=".12"/>
+  <path d="M0 366c161-57 249 36 399-10s258-29 401 12" fill="none" stroke="#00C2B8" stroke-opacity=".12"/>
+  <circle cx="404" cy="242" r="143" fill="#00C2B8" opacity=".12" filter="url(#pulse-glow)"/>
+  <g transform="translate(300 56)">
+    <rect width="200" height="388" rx="34" fill="#07111F" stroke="#F2F6FC" stroke-opacity=".18" stroke-width="2"/>
+    <rect x="14" y="15" width="172" height="358" rx="25" fill="#0E1A2C"/>
+    <rect x="76" y="25" width="48" height="5" rx="2.5" fill="#8B9BB4" opacity=".4"/>
+    <text x="32" y="73" fill="#F2F6FC" font-family="Arial, sans-serif" font-size="12" font-weight="600">Your rhythm</text>
+    <circle cx="100" cy="157" r="62" fill="none" stroke="#FFFFFF" stroke-opacity=".06" stroke-width="14"/>
+    <circle cx="100" cy="157" r="62" fill="none" stroke="url(#pulse-accent)" stroke-width="14" stroke-linecap="round" stroke-dasharray="300 390" transform="rotate(-90 100 157)"/>
+    <text x="100" y="154" fill="#F2F6FC" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700">84</text>
+    <text x="100" y="174" fill="#8B9BB4" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" letter-spacing="1.5">PULSE</text>
+    <path d="M31 273h29l9-21 17 48 19-68 14 41h50" fill="none" stroke="url(#pulse-accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="31" y="319" width="138" height="34" rx="10" fill="#00C2B8" fill-opacity=".14" stroke="#00C2B8" stroke-opacity=".24"/>
+  </g>
+  <g fill="#00C2B8">
+    <circle cx="196" cy="167" r="4"/>
+    <circle cx="619" cy="329" r="6" opacity=".72"/>
+    <circle cx="652" cy="141" r="2" opacity=".55"/>
+  </g>
+  <text x="42" y="448" fill="#F2F6FC" font-family="Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="3">PULSE APP</text>
+  <text x="42" y="472" fill="#8B9BB4" font-family="Arial, sans-serif" font-size="10" letter-spacing="2">WELLNESS IN MOTION</text>
+</svg>

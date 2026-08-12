@@ -1,0 +1,1446 @@
+{
+  "brand": {
+    "name": "MADAR",
+    "arabic": "مدار",
+    "tagline": "Websites, landing pages, CRM & apps — custom built."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "process": "Process",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "letsTalk": "Get a quote"
+  },
+  "common": {
+    "startProject": "Get a quote within 24 hours",
+    "exploreServices": "Explore Our Services",
+    "learnMore": "Learn more",
+    "viewProject": "View project",
+    "backHome": "Back home",
+    "sendRequest": "Send Project Request",
+    "loading": "Loading…",
+    "all": "All",
+    "readMore": "Read more",
+    "getStarted": "Get started",
+    "haveIdea": "Have an idea?",
+    "ctaSub": "Tell us what you need built — and we’ll start planning the right website, system, or app for your business.",
+    "language": "Language"
+  },
+  "hero": {
+    "headline": "We build websites, systems, and apps.",
+    "offerings": "Professional website · Landing page · CRM system · Mobile app",
+    "sub": "A development studio that builds the digital product around how your business actually runs.",
+    "scroll": "Scroll to explore",
+    "nodes": {
+      "website": "Website",
+      "landing": "Landing page",
+      "crm": "CRM system",
+      "app": "Mobile app"
+    }
+  },
+  "home": {
+    "whatWeDo": {
+      "eyebrow": "What we do",
+      "title": "Digital solutions born from business needs — not ready-made templates.",
+      "text": "We combine clear strategy, precise design, and reliable development — so you get a product that works in the real world and delivers results."
+    },
+    "services": {
+      "eyebrow": "Our services",
+      "title": "Four services. Full focus on each one.",
+      "subtitle": "A professional website, landing page, CRM system, and mobile app — the exact tools your business needs to move forward."
+    },
+    "tech": {
+      "eyebrow": "Technology",
+      "title": "Modern tools, selected for the job.",
+      "subtitle": "A dependable stack that keeps products fast, secure, and ready to scale."
+    },
+    "featured": {
+      "eyebrow": "Selected work",
+      "title": "Real projects built for real clients.",
+      "subtitle": "Live websites and stores — click and see the quality yourself."
+    },
+    "why": {
+      "eyebrow": "Why MADAR",
+      "title": "A digital partner that thinks business first.",
+      "items": [
+        "Built around your workflow",
+        "Clear communication and full ownership",
+        "Quality that strengthens long-term growth"
+      ]
+    },
+    "process": {
+      "eyebrow": "How we work",
+      "title": "A clear process — from discovery to a confident launch.",
+      "subtitle": "No surprises: every stage is collaborative, focused, and transparent — with progress you can feel."
+    },
+    "stats": {
+      "eyebrow": "Our impact",
+      "title": "Small team. Serious outcomes."
+    },
+    "faq": {
+      "eyebrow": "Questions",
+      "title": "Answers before you start.",
+      "subtitle": "The essentials of working with MADAR."
+    }
+  },
+  "about": {
+    "title": "A studio that builds websites, systems, and apps.",
+    "subtitle": "MADAR (مدار) builds digital products around how your business actually runs — not ready-made templates.",
+    "intro": "We are a focused development studio: we learn your workflow, turn it into a clear product, and guide you from idea to a stable launch.",
+    "offerings": "Professional website · Landing page · CRM system · Mobile app",
+    "mission": {
+      "title": "Our mission",
+      "text": "To build precise digital products — websites, systems, and apps — that help businesses operate better, look professional, and deliver results."
+    },
+    "vision": {
+      "title": "Our vision",
+      "text": "A world where every business has digital tools that truly fit — simple to run, technically strong, and ready to grow."
+    },
+    "focus": {
+      "eyebrow": "What we build",
+      "title": "Four directions. Full focus on each.",
+      "items": [
+        {
+          "id": "websites",
+          "title": "Professional websites",
+          "text": "A strong, fast, clear digital presence that explains who you are and generates enquiries."
+        },
+        {
+          "id": "landing",
+          "title": "Landing pages",
+          "text": "Focused pages for a campaign or offer — with a sharp message and clear call to action."
+        },
+        {
+          "id": "crm",
+          "title": "CRM systems",
+          "text": "Systems that organize leads, clients, and workflows in one place."
+        },
+        {
+          "id": "apps",
+          "title": "Mobile apps",
+          "text": "Custom mobile apps that give customers and teams a smooth experience."
+        }
+      ]
+    },
+    "values": [
+      {
+        "title": "Clarity",
+        "text": "Simple messages, process, and communication — without unnecessary noise."
+      },
+      {
+        "title": "Precision",
+        "text": "Every design and code decision is made so the product works well in the real world."
+      },
+      {
+        "title": "Partnership",
+        "text": "We work transparently, update along the way, and own the outcome."
+      },
+      {
+        "title": "Growth",
+        "text": "We build it right from the start — so you can expand later without starting over."
+      }
+    ],
+    "approach": {
+      "title": "How we work",
+      "text": "We start by understanding the business, reduce complexity, and deliver in clear stages with continuous feedback."
+    },
+    "technology": {
+      "title": "Technology that fits the job",
+      "text": "We choose modern, proven tools based on product needs, security, and growth — not passing trends."
+    },
+    "whyMadar": {
+      "title": "Why MADAR",
+      "text": "You work directly with a team that connects business thinking, design, and development — one studio, full ownership of the product."
+    },
+    "valuesTitle": "What guides us"
+  },
+  "services": {
+    "title": "Digital Solutions. Built Around Your Business.",
+    "subtitle": "Four focused services — professional websites, landing pages, CRM systems, and mobile applications.",
+    "forWho": "Who it’s for",
+    "problems": "Problems we solve",
+    "goal": "The goal",
+    "whatYouGet": "What you get",
+    "howWeWork": "How we deliver",
+    "web-development": {
+      "title": "Professional Websites",
+      "short": "Premium business websites designed to look sharp and convert visitors.",
+      "description": "A website that explains who you are, builds trust fast, and leads visitors to a clear action.",
+      "features": [
+        "Brand-led custom design",
+        "Fast, smooth mobile experience",
+        "Structure built for enquiries",
+        "SEO foundations & easy updates"
+      ],
+      "benefits": [
+        "A stronger first impression",
+        "More qualified enquiries",
+        "A site your team can manage"
+      ],
+      "forWho": "For businesses, brands, and service providers who want a digital home that stands out — and turns attention into real conversations.",
+      "problems": [
+        "Your site looks outdated and undersells you",
+        "Mobile feels slow or confusing",
+        "Traffic comes in — but enquiries don’t"
+      ],
+      "process": [
+        "Clarify goals, audience, and offer",
+        "Shape structure and messaging",
+        "Design and develop with precision",
+        "Launch, measure, and refine"
+      ],
+      "faq": [
+        {
+          "q": "Can we update the website ourselves after launch?",
+          "a": "Yes. We set up a simple update workflow and train your team so content changes feel easy."
+        },
+        {
+          "q": "Will the site work in Hebrew, Arabic, and English?",
+          "a": "Yes. We build multilingual sites with full RTL support when needed."
+        },
+        {
+          "q": "How long does a professional website take?",
+          "a": "Most projects take a few weeks, depending on scope, content readiness, and level of customization."
+        }
+      ]
+    },
+    "landing-pages": {
+      "title": "Landing Pages",
+      "short": "One page. One offer. One clear conversion.",
+      "description": "Landing pages focused on one goal — turning ad traffic into action.",
+      "features": [
+        "Sharp message and conversion path",
+        "Design that guides to action",
+        "Fast load on mobile",
+        "Conversion tracking & analytics"
+      ],
+      "benefits": [
+        "More leads from the same traffic",
+        "Clearer campaign results",
+        "Faster go-to-market"
+      ],
+      "forWho": "For businesses running ads, offers, or launches that need a dedicated page built to convert — without the distractions of a full website.",
+      "problems": [
+        "You pay for ads — but conversion stays low",
+        "The page is confusing with too many goals",
+        "Slow mobile pages lose leads"
+      ],
+      "process": [
+        "Define offer and audience",
+        "Write a precise conversion flow",
+        "Design and build the page",
+        "Launch, measure, and improve"
+      ],
+      "faq": [
+        {
+          "q": "How is a landing page different from a full website?",
+          "a": "A landing page is built for one offer and one action. A full website tells the whole brand story across multiple journeys."
+        },
+        {
+          "q": "Can you connect Facebook, Google, and analytics?",
+          "a": "Yes. We set up tracking for campaigns, forms, and conversions so you can see what works."
+        },
+        {
+          "q": "How quickly can we go live?",
+          "a": "When the offer and content are clear, many pages launch within a few days."
+        }
+      ]
+    },
+    "crm-systems": {
+      "title": "CRM Systems",
+      "short": "A CRM shaped around how your team actually works.",
+      "description": "One system for leads, clients, tasks, and follow-ups — so no opportunity slips away.",
+      "features": [
+        "Sales pipeline tailored to you",
+        "Full client history in one card",
+        "Tasks, reminders, and automations",
+        "Role-based reports and permissions"
+      ],
+      "benefits": [
+        "Clear ownership of every lead",
+        "Consistent follow-up, fewer drop-offs",
+        "One shared customer view"
+      ],
+      "forWho": "For sales teams, service teams, and business owners who need real control over customers — not another spreadsheet or rigid off-the-shelf tool.",
+      "problems": [
+        "Leads get lost across WhatsApp, email, and Excel",
+        "No single view of the customer",
+        "Generic CRM tools don’t match your process"
+      ],
+      "process": [
+        "Map your customer lifecycle",
+        "Design roles and pipelines",
+        "Build and migrate data",
+        "Train and optimize in real use"
+      ],
+      "faq": [
+        {
+          "q": "Will the CRM follow our process?",
+          "a": "Yes. We adapt the CRM to you — we don’t force your team into a generic workflow."
+        },
+        {
+          "q": "Can you migrate existing clients and leads?",
+          "a": "Yes. We plan a clean import together, including organizing the data that matters."
+        },
+        {
+          "q": "Can different teams have different permissions?",
+          "a": "Yes. Each role sees exactly what’s relevant — by branch, department, or responsibility."
+        }
+      ]
+    },
+    "mobile-applications": {
+      "title": "Mobile Applications",
+      "short": "An app customers open — and teams actually use.",
+      "description": "iOS and Android apps with clean UX, solid performance, and connections to your systems.",
+      "features": [
+        "iOS and Android delivery",
+        "Simple, fast screens to use",
+        "Real-time push notifications",
+        "Secure API and system connections"
+      ],
+      "benefits": [
+        "Stay connected beyond the website",
+        "Consistent experience in both stores",
+        "Shared foundations that save time and cost"
+      ],
+      "forWho": "For businesses that need a customer app, ordering/service channel, or an internal tool for field teams — without making the experience complicated.",
+      "problems": [
+        "No convenient mobile channel for customers",
+        "Field teams depend on desktop or WhatsApp",
+        "Separate builds for each platform get expensive"
+      ],
+      "process": [
+        "Validate the need and key journeys",
+        "Prototype the essential screens",
+        "Develop and connect systems",
+        "Publish to stores and support after launch"
+      ],
+      "faq": [
+        {
+          "q": "Will the app work on iPhone and Android?",
+          "a": "Yes. We build cross-platform experiences for both stores."
+        },
+        {
+          "q": "Can it connect to our CRM, website, or existing system?",
+          "a": "Yes — when an API exists, or when we can build the right connection."
+        },
+        {
+          "q": "Do you help with App Store and Google Play publishing?",
+          "a": "Yes. We support preparation, submission, and the review process."
+        }
+      ]
+    }
+  },
+  "servicePages": {
+    "web-development": {
+      "headline": "The website that makes people understand you — and reach out.",
+      "body": "Not just a pretty site. We build a fast, clear digital presence that matches your brand — and turns interest into calls, quotes, or sales.",
+      "promise": "Goal: explain your value in seconds, then guide visitors to action.",
+      "goal": "Build a digital home that strengthens trust, sets you apart, and generates quality enquiries consistently.",
+      "introTitle": "A website that works for the business — not just the portfolio.",
+      "introBody": "You get premium design, clear structure, strong mobile performance, and paths built for conversion. After launch — a simple update flow for your team.",
+      "outcome": "You end with a live site that represents you properly.",
+      "outcomeBody": "A presence that respects the brand, loads fast, and is ready to grow with you — with clear metrics for continuous improvement.",
+      "processLead": "We work in short stages with full transparency — from discovery to launch."
+    },
+    "landing-pages": {
+      "headline": "One page that turns ad traffic into real leads.",
+      "body": "When you run campaigns, every second counts. We build a landing page with one message, one offer, and one clear button — so your ad budget works harder.",
+      "promise": "Less noise. More action. A page that points visitors exactly where they should go.",
+      "goal": "Raise campaign conversion and turn clicks into leads, bookings, or sales.",
+      "introTitle": "A sharp conversion path — without distractions.",
+      "introBody": "Strong headline, clear benefits, trust signals, and the right call to action. Everything aims at one outcome: leave details or buy.",
+      "outcome": "A page ready for ads — with tracking that shows what works.",
+      "outcomeBody": "You’ll see which ads bring leads, improve messaging quickly, and launch new versions without starting from scratch.",
+      "processLead": "Speed with precision: define the offer, build, launch, and improve with data."
+    },
+    "crm-systems": {
+      "headline": "A CRM that ends the chaos — and puts every customer under control.",
+      "body": "Leads in WhatsApp, undocumented calls, follow-ups that break between people. We build a system that centralizes your customer lifecycle — around how your team actually works.",
+      "promise": "Every lead has an owner. Every conversation has a place. Every stage is tracked.",
+      "goal": "Turn sales and service into an organized, measurable process — even as the team grows.",
+      "introTitle": "The system adapts to you — not the other way around.",
+      "introBody": "Pipelines, permissions, tasks, and reports are built around your real process. Result: less chaos, more closes, and a clear view for leadership.",
+      "outcome": "Full control of leads and customers — at every moment.",
+      "outcomeBody": "The team knows the next step, leadership sees real numbers, and customers get a consistent experience.",
+      "processLead": "We start by mapping your process — then build the system that supports it."
+    },
+    "mobile-applications": {
+      "headline": "An app customers actually open — and teams actually use.",
+      "body": "We build iOS and Android apps that simplify ordering, service, or field work. Clean, fast experiences connected to the systems you already have.",
+      "promise": "Not an app for PR — a daily tool that strengthens the customer relationship.",
+      "goal": "Give customers and teams easy mobile access — with a simple experience that drives repeat use.",
+      "introTitle": "Mobile built around real usage.",
+      "introBody": "We map the key journeys, design clear screens, and ship a stable app for both stores — including notifications and connections to existing systems.",
+      "outcome": "A live mobile channel that strengthens loyalty and efficiency.",
+      "outcomeBody": "Customers get service at their fingertips, and teams move faster — without depending on desktop or WhatsApp alone.",
+      "processLead": "First we confirm clear user value — then we develop and publish to the stores."
+    }
+  },
+  "projects": {
+    "title": "Real work. Results you can see and click.",
+    "subtitle": "A selected portfolio of websites and stores we built for clients — every card opens the live site so you can judge the quality yourself.",
+    "galleryTitle": "Our work",
+    "galleryLead": "Filter by type, then click a project to open the live website.",
+    "proofLabel": "Why it matters",
+    "proof": [
+      "Real clients with live websites",
+      "Design and development shaped to the brand",
+      "Strong mobile experience in every project"
+    ],
+    "clickHint": "Clicking a card opens the live site in a new tab",
+    "count": "{{count}} projects",
+    "empty": "No projects in this category yet.",
+    "filters": {
+      "all": "All",
+      "websites": "Websites",
+      "ecommerce": "Online stores",
+      "crm": "CRM",
+      "applications": "Applications"
+    },
+    "viewDetails": "View all work",
+    "viewLive": "View live site",
+    "items": {
+      "heba-fashion": {
+        "name": "Heba Fashion",
+        "short": "A luxury fashion store — elegant branding that invites shoppers to buy.",
+        "overview": "A premium fashion e-commerce experience for Heba Fashion — elegant, multilingual, and built to convert.",
+        "challenge": "The brand needed a high-end online store that feels luxurious on mobile and desktop, supports Hebrew shopping flows, and presents collections with clear conversion paths.",
+        "solution": "We designed and developed a polished fashion storefront with a strong hero experience, clear product journeys, and a premium visual language around the Heba Fashion brand.",
+        "features": [
+          "Premium fashion storefront",
+          "Mobile-first shopping experience",
+          "Collections and campaign pages",
+          "Multilingual-ready interface"
+        ],
+        "results": [
+          "A luxurious digital brand presence",
+          "Clear paths from discovery to purchase",
+          "A storefront ready for ongoing growth"
+        ]
+      },
+      "alal-marble": {
+        "name": "Alal Marble",
+        "short": "A professional site for cladding reinforcement — builds trust and drives quotes.",
+        "overview": "A premium business website for Alal Marble — specialists in stone cladding reinforcement and building restoration across Israel.",
+        "challenge": "The company needed a strong digital presence that communicates expertise in high-risk restoration work, builds trust quickly, and drives quote requests from property managers and building committees.",
+        "solution": "We built a professional Hebrew website with clear services, project proof, process transparency, and strong conversion paths for calls and quote requests.",
+        "features": [
+          "Professional service presentation",
+          "Project showcase and trust signals",
+          "Clear quote request flows",
+          "Mobile-optimized business experience"
+        ],
+        "results": [
+          "A credible premium brand presence",
+          "Clear paths to contact and quotes",
+          "A website ready to convert local demand"
+        ]
+      },
+      "shisha-kings": {
+        "name": "Shisha Kings",
+        "short": "A dark premium hookah store — bold atmosphere with a simple buy path.",
+        "overview": "A dark, premium e-commerce store for Shisha Kings — built to showcase products and convert shoppers on mobile and desktop.",
+        "challenge": "The brand needed a bold online store that matches its lounge aesthetic, highlights new products and deals, and makes shopping simple in Hebrew.",
+        "solution": "We developed a polished dark-theme storefront with strong hero storytelling, clear product discovery paths, and a premium shopping experience around the Shisha Kings brand.",
+        "features": [
+          "Premium dark-theme storefront",
+          "Product discovery and promotions",
+          "Mobile-first shopping flows",
+          "Multilingual-ready interface"
+        ],
+        "results": [
+          "A distinctive brand shopping experience",
+          "Clear paths from discovery to purchase",
+          "A storefront ready for ongoing catalog growth"
+        ]
+      },
+      "al-nour-bakery": {
+        "name": "Al-Nour Bakery",
+        "short": "A warm gluten-free bakery store — trust, beauty, and easy ordering.",
+        "overview": "A warm, premium e-commerce experience for Al-Nour Bakery — a gluten-free bakery brand built for Hebrew shoppers.",
+        "challenge": "The bakery needed an inviting online store that communicates gluten-free trust, showcases products beautifully, and makes ordering simple on mobile and desktop.",
+        "solution": "We designed and developed a distinctive storefront with custom illustration, clear product journeys, and a friendly premium brand language around Al-Nour Bakery.",
+        "features": [
+          "Custom brand-led storefront",
+          "Product catalog and categories",
+          "Mobile-first Hebrew shopping flows",
+          "Pickup and delivery messaging"
+        ],
+        "results": [
+          "A distinctive gluten-free brand presence",
+          "Clear paths from discovery to order",
+          "A storefront ready for catalog growth"
+        ]
+      }
+    }
+  },
+  "projectDetail": {
+    "overview": "Overview",
+    "challenge": "Challenge",
+    "solution": "Solution",
+    "features": "Key features",
+    "technologies": "Technologies",
+    "results": "Results",
+    "gallery": "Gallery"
+  },
+  "process": {
+    "title": "A clear process — from idea to a product that works.",
+    "subtitle": "Structured stages that keep focus, reduce risk, and take you to launch with confidence — without chaos or surprises.",
+    "steps": {
+      "discovery": {
+        "title": "Discovery",
+        "desc": "We deeply understand your goals, audience, constraints, and current reality — so we build on truth, not assumptions."
+      },
+      "strategy": {
+        "title": "Strategy",
+        "desc": "We set priorities, scope, success metrics, and a clear roadmap — what to build first and why."
+      },
+      "uxui": {
+        "title": "UX/UI Design",
+        "desc": "We design user journeys, prototypes, and a precise visual language — so the product is clear, beautiful, and easy to use."
+      },
+      "development": {
+        "title": "Development",
+        "desc": "We build in focused increments with regular demos — so you see real progress at every stage."
+      },
+      "testing": {
+        "title": "Testing",
+        "desc": "We verify usability, performance, and device compatibility — before the product reaches customers."
+      },
+      "launch": {
+        "title": "Launch",
+        "desc": "We go live carefully, prepare your team, and make sure the release is stable and controlled."
+      },
+      "support": {
+        "title": "Support & improvement",
+        "desc": "After launch we keep measuring, maintaining, and improving — so the product grows with the business."
+      }
+    }
+  },
+  "contact": {
+    "title": "LET'S BUILD SOMETHING GREAT.",
+    "subtitle": "Tell us about your goal, challenge, or idea. We’ll respond with a practical next step.",
+    "fields": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone number",
+      "company": "Company",
+      "service": "Service needed",
+      "budget": "Estimated budget",
+      "message": "Your message"
+    },
+    "placeholders": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone number",
+      "company": "Company name",
+      "message": "Tell us briefly about your project or idea…"
+    },
+    "sendMessage": "Send message",
+    "privacyNote": "Your information is safe and will not be shared with anyone.",
+    "success": "Thanks—your request was sent. We’ll be in touch shortly.",
+    "error": "We couldn’t send your request. Please try again or contact us directly.",
+    "budgets": {
+      "select": "Select a range",
+      "small": "Under ₪20,000",
+      "medium": "₪20,000–₪50,000",
+      "large": "₪50,000–₪100,000",
+      "enterprise": "₪100,000+",
+      "unsure": "Not sure yet"
+    },
+    "serviceOptions": {
+      "select": "Select a service",
+      "web-development": "Professional Website",
+      "landing-pages": "Landing Page",
+      "crm-systems": "CRM System",
+      "mobile-applications": "Mobile Application",
+      "other": "Other"
+    },
+    "validation": {
+      "required": "This field is required.",
+      "email": "Enter a valid email address.",
+      "message": "Please add a little more project detail."
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions.",
+    "subtitle": "Straight answers about scope, timing, and working together.",
+    "items": {
+      "cost": {
+        "q": "How much does a website cost?",
+        "a": "Pricing depends on scope, pages, design level and features. After a short discovery call we provide a clear proposal for your website, landing page, CRM or app."
+      },
+      "timeline": {
+        "q": "How long does development take?",
+        "a": "Landing pages often take days to a couple of weeks. Professional websites usually take a few weeks. CRM systems and mobile apps typically take longer depending on complexity."
+      },
+      "crm": {
+        "q": "Do you build custom CRM systems?",
+        "a": "Yes. We design and develop CRM platforms around your sales and service workflow — not generic templates."
+      },
+      "mobile": {
+        "q": "Do you build mobile applications?",
+        "a": "Yes. We build modern mobile apps for iOS and Android for customers and internal teams."
+      },
+      "api": {
+        "q": "Can you integrate external systems?",
+        "a": "Yes. When needed we connect CRMs, payments, messaging tools and other services through reliable integrations."
+      },
+      "maintenance": {
+        "q": "Do you provide maintenance?",
+        "a": "Yes. We offer ongoing maintenance, updates and technical support after launch."
+      },
+      "redesign": {
+        "q": "Can you redesign an existing website?",
+        "a": "Yes. We can modernize design, improve performance, rebuild structure and elevate conversion."
+      },
+      "smb": {
+        "q": "Do you work with small businesses?",
+        "a": "Yes. We work with startups, growing companies and established businesses."
+      },
+      "scratch": {
+        "q": "Can you build an entire system from scratch?",
+        "a": "Yes. From discovery and design to development, launch and support — including websites, landing pages, CRM and apps."
+      }
+    }
+  },
+  "footer": {
+    "description": "A digital agency specializing in websites, CRM systems, and apps — built around your business.",
+    "services": "Services",
+    "contact": "Contact",
+    "rights": "© {{year}} MADAR. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "navigate": "Navigate",
+    "location": "Deir al-Asad · Israel",
+    "quickLinks": "Quick links",
+    "contactDetails": "Contact details",
+    "legal": "Legal"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "updated": "Last updated: August 13, 2026",
+    "sections": [
+      {
+        "title": "1. Introduction",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "We at MADAR (مدار) (\"we\", \"us\", \"our\") are committed to protecting the privacy of our website visitors and clients. This policy explains how we collect, use, share, and protect personal information when you use madar.digital or our development services (websites, landing pages, CRM systems, and apps)."
+          },
+          {
+            "type": "p",
+            "text": "This policy is designed in line with Israel's Privacy Protection Law, 1981, and its regulations. Where relevant (for example for visitors from the EU/EEA), we also follow commonly accepted data-protection principles, including GDPR concepts."
+          },
+          {
+            "type": "p",
+            "text": "By using our website or services, you agree to the practices described here. If you do not agree, please do not use the site or submit personal information."
+          }
+        ]
+      },
+      {
+        "title": "2. Business details",
+        "blocks": [
+          {
+            "type": "kv",
+            "items": [
+              {
+                "label": "Business name",
+                "value": "MADAR / مدار",
+                "dir": "auto"
+              },
+              {
+                "label": "Business ID",
+                "value": "214036717 (Exempt dealer — Israel)",
+                "dir": "ltr"
+              },
+              {
+                "label": "Address",
+                "value": "Deir al-Asad, Israel",
+                "dir": "auto"
+              },
+              {
+                "label": "Email",
+                "value": "hello@madar.digital",
+                "dir": "ltr"
+              },
+              {
+                "label": "Phone",
+                "value": "+972 54-7267713",
+                "dir": "ltr"
+              },
+              {
+                "label": "Website",
+                "value": "https://madar.digital",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "3. Information we collect",
+        "blocks": [
+          {
+            "type": "sub",
+            "title": "3.1 Information you provide directly",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "When you use our contact form or request a quote, we may collect:"
+              },
+              {
+                "type": "list",
+                "items": [
+                  "Full name",
+                  "Phone number",
+                  "Email address",
+                  "Message / project description"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "sub",
+            "title": "3.2 Information collected automatically",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "When you browse the site, servers and browsers may record routine technical data, such as:"
+              },
+              {
+                "type": "list",
+                "items": [
+                  "IP address",
+                  "Browser and device type",
+                  "Operating system",
+                  "Pages visited, visit times, and technical server request logs",
+                  "Language preference stored in the browser (for example via localStorage)"
+                ]
+              },
+              {
+                "type": "p",
+                "text": "This information is used mainly for operations, security, and site improvement, and is not intended to identify you directly."
+              }
+            ]
+          },
+          {
+            "type": "sub",
+            "title": "3.3 Cookies and local storage",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "We may use essential cookies and local browser storage to operate the site (for example saving interface language). See section 7 for more detail."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "4. How we use information",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "We use collected information for:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Responding to enquiries and preparing quotes",
+              "Providing development services and related project support",
+              "Operating, securing, and improving the website",
+              "Contacting you through channels you choose (such as email or WhatsApp), at your request",
+              "Complying with legal and regulatory obligations"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "We do not use your information for direct marketing without your clear consent, if and when we offer marketing communications."
+          }
+        ]
+      },
+      {
+        "title": "5. Sharing with third parties",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "We do not sell personal information. We may share information only with providers needed to run the business and website, and only as necessary:"
+          },
+          {
+            "type": "sub",
+            "title": "5.1 Contact form / website server",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "Purpose: receiving and processing contact requests submitted through the website form."
+              },
+              {
+                "type": "p",
+                "text": "Data that may be processed: name, phone, email, and message content."
+              }
+            ]
+          },
+          {
+            "type": "sub",
+            "title": "5.2 WhatsApp",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "Purpose: direct contact when you click the WhatsApp button. The conversation is handled on WhatsApp/Meta platforms under their terms."
+              },
+              {
+                "type": "p",
+                "text": "Privacy policy: https://www.whatsapp.com/legal/privacy-policy"
+              }
+            ]
+          },
+          {
+            "type": "sub",
+            "title": "5.3 Hosting and infrastructure providers",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "Purpose: website hosting, security, and network traffic. These providers may process technical server logs (such as IP addresses) as part of operating their service."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "text": "If we later add analytics tools or other providers, we will update this policy accordingly."
+          }
+        ]
+      },
+      {
+        "title": "6. Legal disclosures",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "We may disclose information when:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Required by court order, legal obligation, or a competent authority",
+              "Needed to protect our rights, property, or safety, or that of others",
+              "Related to a business transfer (such as a merger or sale), subject to applicable law and reasonable protections"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "7. Cookies",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "As of this policy update, our main use is essential operational tools (such as language preference). We do not currently run dedicated third-party advertising or analytics tools on the site."
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Type",
+              "Example",
+              "Purpose",
+              "Duration"
+            ],
+            "rows": [
+              [
+                "Essential / operational",
+                "Language preference",
+                "Save interface language and improve usability",
+                "According to browser settings / until deleted"
+              ],
+              [
+                "Technical server logs",
+                "Access logs",
+                "Security, diagnostics, and operations",
+                "According to infrastructure provider policy"
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "You can manage cookies and local storage in your browser settings. Blocking essential tools may affect site functionality."
+          }
+        ]
+      },
+      {
+        "title": "8. Information security",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "We take reasonable security measures to protect information from unauthorized access, use, or disclosure, including:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "HTTPS encryption where the site is served that way",
+              "Limiting access to information on a need-to-know basis",
+              "Using commonly accepted infrastructure providers"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "No electronic transmission or storage method is 100% secure, so we cannot guarantee absolute security."
+          }
+        ]
+      },
+      {
+        "title": "9. Data retention",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "We keep personal information only as long as needed for the purposes collected, or as required by law. Afterwards we delete or anonymize it where feasible."
+          },
+          {
+            "type": "list",
+            "items": [
+              "Contact-form enquiries: up to 2 years from the last enquiry, unless a business relationship continues",
+              "Client records linked to a business/accounting engagement: according to Israeli record-keeping duties (often up to 7 years, as applicable)",
+              "Technical logs: for a reasonable period needed for security and operations"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "10. Your rights",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Under Israeli privacy law, and under other laws that may apply to you (including GDPR rights where relevant), you may be entitled to:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Access personal information we hold about you",
+              "Correct inaccurate information",
+              "Request deletion, subject to legal duties or legitimate business needs",
+              "Object to use of your information for direct marketing, if applicable",
+              "Receive information about how your data is used"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "To exercise your rights, contact hello@madar.digital. We aim to respond within 30 days, subject to legal requirements."
+          }
+        ]
+      },
+      {
+        "title": "11. Data deletion",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "To request deletion of personal information, email hello@madar.digital and include details that help us locate your request (such as the email or phone you used)."
+          },
+          {
+            "type": "p",
+            "text": "We may be unable to delete information we must keep by law (for example accounting records), or information needed for legal defense."
+          }
+        ]
+      },
+      {
+        "title": "12. Children's privacy",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Our website and services are not intended for anyone under 18. We do not knowingly collect personal information from minors. If you learn that a minor provided us information, please contact us so we can delete it."
+          }
+        ]
+      },
+      {
+        "title": "13. International transfers",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Some infrastructure or communication providers (such as WhatsApp) may process information on servers outside Israel. In such cases we rely on recognized providers and commonly accepted safeguards where applicable."
+          }
+        ]
+      },
+      {
+        "title": "14. Changes to this policy",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "We may update this policy from time to time. Material changes will be posted on this page, and the \"Last updated\" date at the top will reflect the latest revision."
+          }
+        ]
+      },
+      {
+        "title": "15. Contact us",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "For questions or requests about this policy or our handling of personal information:"
+          },
+          {
+            "type": "kv",
+            "items": [
+              {
+                "label": "Business",
+                "value": "MADAR / مدار",
+                "dir": "auto"
+              },
+              {
+                "label": "Email",
+                "value": "hello@madar.digital",
+                "dir": "ltr"
+              },
+              {
+                "label": "Phone",
+                "value": "+972 54-7267713",
+                "dir": "ltr"
+              },
+              {
+                "label": "Address",
+                "value": "Deir al-Asad, Israel",
+                "dir": "auto"
+              },
+              {
+                "label": "Business ID",
+                "value": "214036717",
+                "dir": "ltr"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "updated": "Last updated: August 13, 2026",
+    "sections": [
+      {
+        "title": "1. Introduction",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Welcome to the MADAR (مدار) website. These terms apply to your use of madar.digital and the development services we provide (websites, landing pages, CRM systems, and apps)."
+          },
+          {
+            "type": "p",
+            "text": "By using the website or our services, you agree to these terms. If you do not agree with any part of them, please do not use the site."
+          }
+        ]
+      },
+      {
+        "title": "2. Business details",
+        "blocks": [
+          {
+            "type": "kv",
+            "items": [
+              {
+                "label": "Business name",
+                "value": "MADAR / مدار"
+              },
+              {
+                "label": "Business ID",
+                "value": "214036717 (Exempt dealer — Israel)"
+              },
+              {
+                "label": "Address",
+                "value": "Deir al-Asad, Israel"
+              },
+              {
+                "label": "Email",
+                "value": "hello@madar.digital"
+              },
+              {
+                "label": "Phone",
+                "value": "+972 54-7267713"
+              },
+              {
+                "label": "Website",
+                "value": "https://madar.digital"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "3. Services we offer",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "MADAR is a studio that builds digital products. Our services include:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Professional website development",
+              "Landing page development",
+              "CRM and business-system development",
+              "Mobile application development",
+              "UI/UX design, integrations, and technical maintenance as defined per project"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "The scope, deliverables, timeline, and fees for each engagement are set in a written quote and/or signed agreement. Website content is general information and is not a binding offer by itself."
+          }
+        ]
+      },
+      {
+        "title": "4. Website use",
+        "blocks": [
+          {
+            "type": "sub",
+            "title": "4.1 Permitted use",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "You may browse the site, view content, and submit enquiries for legitimate personal or business purposes."
+              }
+            ]
+          },
+          {
+            "type": "sub",
+            "title": "4.2 Prohibited use",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "You may not:"
+              },
+              {
+                "type": "list",
+                "items": [
+                  "Use the site for any unlawful purpose",
+                  "Attempt unauthorized access to our systems, servers, or data",
+                  "Send viruses, malware, spam, or harmful content",
+                  "Copy, distribute, or modify site content without written permission",
+                  "Collect information about other users without consent",
+                  "Disrupt the site or place unreasonable load on it"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "5. Intellectual property",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "All content on this website — including text, images, logos, designs, and code — belongs to MADAR or our licensors unless otherwise stated. You may not copy, distribute, or reuse it without prior written permission."
+          },
+          {
+            "type": "p",
+            "text": "The MADAR / مدار name, logo, and related marks are our exclusive property."
+          },
+          {
+            "type": "p",
+            "text": "Ownership of client-project deliverables (code, design, assets) is governed by the specific project agreement. Unless otherwise agreed in writing, rights transfer to the client after full payment as defined in that agreement."
+          }
+        ]
+      },
+      {
+        "title": "6. Enquiries, quotes, and projects",
+        "blocks": [
+          {
+            "type": "sub",
+            "title": "6.1 Website enquiries",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "Submitting a contact form or messaging us on WhatsApp does not create a binding contract. A quote becomes binding only after written acceptance and mutual agreement to its terms."
+              }
+            ]
+          },
+          {
+            "type": "sub",
+            "title": "6.2 Scope and changes",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "Material changes to scope, deliverables, or timelines after work begins may require an updated fee and schedule, subject to agreement."
+              }
+            ]
+          },
+          {
+            "type": "sub",
+            "title": "6.3 Client materials",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "You are responsible for ensuring you have the rights to any content, media, and information you provide for the project, and that their use does not infringe third-party rights."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "7. Payment",
+        "blocks": [
+          {
+            "type": "sub",
+            "title": "7.1 Pricing",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "Prices are set in the quote and/or agreement. Unless stated otherwise, prices are in Israeli Shekels (₪) and exclude VAT if applicable."
+              }
+            ]
+          },
+          {
+            "type": "sub",
+            "title": "7.2 Payment terms",
+            "blocks": [
+              {
+                "type": "list",
+                "items": [
+                  "Payment terms are defined in the quote/agreement (for example deposit and milestones)",
+                  "Late payment may result in paused work or delayed delivery of materials"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "sub",
+            "title": "7.3 Refunds",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "Unless otherwise stated in a signed agreement, payments for completed work, consulting, or finished development stages are non-refundable. If a project is cancelled mid-way, you remain responsible for work performed up to the cancellation date."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "8. Limitation of liability",
+        "blocks": [
+          {
+            "type": "sub",
+            "title": "8.1 The website",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "The website is provided \"as is\". We do not guarantee continuous availability, error-free operation, or freedom from security risks."
+              }
+            ]
+          },
+          {
+            "type": "sub",
+            "title": "8.2 Development services",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "We work professionally and with reasonable care under the agreement, but we do not guarantee:"
+              },
+              {
+                "type": "list",
+                "items": [
+                  "Specific business outcomes (sales, leads, search rankings, etc.)",
+                  "Absolute compatibility with every device, browser, or third-party system not defined in the agreement",
+                  "Continuous availability of third-party services integrated into a project (hosting, payments, APIs, etc.)"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "sub",
+            "title": "8.3 Indirect damages",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "To the maximum extent permitted by law, MADAR is not liable for indirect, incidental, or consequential damages, including loss of profits, revenue, or data."
+              }
+            ]
+          },
+          {
+            "type": "sub",
+            "title": "8.4 Liability cap",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "If we are legally liable in connection with paid services, our total aggregate liability will not exceed the amounts actually paid to us for that project in the 12 months preceding the claim event."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "9. Third-party services",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "The website and/or projects may integrate third-party services (such as WhatsApp, hosting, payment tools, or APIs). We are not responsible for their availability, performance, privacy policies, or terms."
+          }
+        ]
+      },
+      {
+        "title": "10. Termination",
+        "blocks": [
+          {
+            "type": "sub",
+            "title": "10.1 Termination by us",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "We may suspend service or restrict access in cases such as breach of these terms, non-payment, or harmful use — subject to the relevant agreement and applicable law."
+              }
+            ]
+          },
+          {
+            "type": "sub",
+            "title": "10.2 Termination by you",
+            "blocks": [
+              {
+                "type": "p",
+                "text": "Ending a project or ongoing service follows the signed agreement. If no other arrangement exists, you may request termination in writing; amounts accrued up to the termination date remain due."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "11. Privacy",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "Use of the website and our services is also subject to our Privacy Policy, which forms an integral part of these terms."
+          }
+        ]
+      },
+      {
+        "title": "12. Governing law and jurisdiction",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "These terms are governed by the laws of the State of Israel. Exclusive jurisdiction for any dispute lies with the competent courts in Israel."
+          }
+        ]
+      },
+      {
+        "title": "13. Changes",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "We may update these terms from time to time. Material changes will be posted on this page. Continued use of the site after an update constitutes acceptance of the revised terms."
+          }
+        ]
+      },
+      {
+        "title": "14. Severability",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "If any provision of these terms is found unenforceable, the remaining provisions remain in full force."
+          }
+        ]
+      },
+      {
+        "title": "15. Contact",
+        "blocks": [
+          {
+            "type": "p",
+            "text": "For questions about these terms:"
+          },
+          {
+            "type": "kv",
+            "items": [
+              {
+                "label": "Business",
+                "value": "MADAR / مدار"
+              },
+              {
+                "label": "Email",
+                "value": "hello@madar.digital"
+              },
+              {
+                "label": "Phone",
+                "value": "+972 54-7267713"
+              },
+              {
+                "label": "Address",
+                "value": "Deir al-Asad, Israel"
+              },
+              {
+                "label": "Business ID",
+                "value": "214036717"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "notFound": {
+    "title": "PAGE NOT FOUND",
+    "message": "The page may have moved or no longer exists.",
+    "cta": "Return home"
+  },
+  "seo": {
+    "home": {
+      "title": "MADAR | Professional Websites, Landing Pages, CRM & Apps",
+      "description": "MADAR builds digital presence that brings customers: websites, landing pages, CRM and apps — shaped around your business."
+    },
+    "about": {
+      "title": "About MADAR | Website & Systems Development Studio",
+      "description": "Meet MADAR — a studio that builds professional websites, landing pages, CRM systems, and apps for businesses."
+    },
+    "services": {
+      "title": "MADAR Services | Websites, Landing Pages, CRM & Apps",
+      "description": "Explore MADAR services: professional websites, landing pages, CRM systems and mobile applications."
+    },
+    "projects": {
+      "title": "Projects | MADAR",
+      "description": "Live portfolio: websites and stores we built for real clients — click and explore."
+    },
+    "process": {
+      "title": "Our Process | MADAR",
+      "description": "A clear path from discovery to launch: transparent stages, business focus, and progress without surprises."
+    },
+    "contact": {
+      "title": "Contact MADAR",
+      "description": "Discuss your next website, application, or custom system with MADAR."
+    },
+    "faq": {
+      "title": "FAQ | MADAR",
+      "description": "Answers about MADAR services, timelines, pricing, and support."
+    },
+    "privacy": {
+      "title": "Privacy Policy | MADAR",
+      "description": "MADAR privacy policy: how we collect, use, and protect personal information."
+    },
+    "terms": {
+      "title": "Terms of Use | MADAR",
+      "description": "Terms of use for the MADAR website and our development services."
+    },
+    "web-development": {
+      "title": "Professional Websites | MADAR",
+      "description": "Premium business websites designed to convert and grow with your brand."
+    },
+    "mobile-applications": {
+      "title": "Mobile Applications | MADAR",
+      "description": "Cross-platform mobile apps for iOS and Android."
+    },
+    "crm-systems": {
+      "title": "Custom CRM Systems | MADAR",
+      "description": "CRM software tailored to your sales and service processes."
+    },
+    "landing-pages": {
+      "title": "Landing Pages | MADAR",
+      "description": "High-converting landing pages for campaigns, offers, and lead generation."
+    }
+  },
+  "stats": {
+    "projects": "Projects delivered",
+    "solutions": "Digital solutions",
+    "custom": "Custom-built",
+    "mindset": "Support mindset"
+  },
+  "cta": {
+    "title": "Ready to move your business forward?",
+    "subtitle": "Tell us what you want to improve, launch, or transform.",
+    "button": "Start your project"
+  },
+  "languages": {
+    "en": "English",
+    "ar": "Arabic",
+    "he": "Hebrew"
+  }
+}

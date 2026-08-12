@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="lumen-title lumen-desc">
+  <title id="lumen-title">Lumen Site</title>
+  <desc id="lumen-desc">Abstract editorial website composition with radiant geometry.</desc>
+  <defs>
+    <linearGradient id="lumen-bg" x1="82" y1="24" x2="729" y2="481" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12263E"/>
+      <stop offset=".52" stop-color="#07111F"/>
+      <stop offset="1" stop-color="#03070E"/>
+    </linearGradient>
+    <linearGradient id="lumen-light" x1="273" y1="104" x2="564" y2="369" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B8FFF9"/>
+      <stop offset=".37" stop-color="#00C2B8"/>
+      <stop offset="1" stop-color="#3D7EFF"/>
+    </linearGradient>
+    <filter id="lumen-glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#lumen-bg)"/>
+  <circle cx="500" cy="193" r="125" fill="#00C2B8" opacity=".16" filter="url(#lumen-glow)"/>
+  <g transform="translate(125 65)">
+    <rect width="550" height="360" rx="16" fill="#0A1626" fill-opacity=".86" stroke="#FFFFFF" stroke-opacity=".12"/>
+    <path d="M0 54h550" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <circle cx="26" cy="27" r="5" fill="#00C2B8"/>
+    <rect x="45" y="23" width="54" height="8" rx="4" fill="#F2F6FC" opacity=".72"/>
+    <g fill="#8B9BB4" opacity=".55">
+      <rect x="358" y="24" width="42" height="6" rx="3"/>
+      <rect x="419" y="24" width="42" height="6" rx="3"/>
+      <rect x="480" y="24" width="42" height="6" rx="3"/>
+    </g>
+    <g transform="translate(38 87)">
+      <rect width="211" height="13" rx="6.5" fill="#F2F6FC" opacity=".92"/>
+      <rect y="26" width="164" height="13" rx="6.5" fill="#F2F6FC" opacity=".92"/>
+      <rect y="61" width="179" height="6" rx="3" fill="#8B9BB4" opacity=".5"/>
+      <rect y="76" width="151" height="6" rx="3" fill="#8B9BB4" opacity=".35"/>
+      <rect y="112" width="88" height="34" rx="7" fill="#00C2B8" fill-opacity=".18" stroke="#00C2B8" stroke-opacity=".5"/>
+    </g>
+    <g transform="translate(310 83)">
+      <rect width="196" height="197" rx="12" fill="url(#lumen-light)" opacity=".15"/>
+      <path d="M98 22l25 51 56 8-40 40 10 56-51-27-51 27 10-56-40-40 56-8z" fill="none" stroke="url(#lumen-light)" stroke-width="2"/>
+      <circle cx="98" cy="99" r="37" fill="#00C2B8" opacity=".14"/>
+      <circle cx="98" cy="99" r="7" fill="#B8FFF9"/>
+    </g>
+    <g fill="#FFFFFF" fill-opacity=".05">
+      <rect x="38" y="298" width="145" height="35" rx="8"/>
+      <rect x="195" y="298" width="145" height="35" rx="8"/>
+      <rect x="352" y="298" width="154" height="35" rx="8"/>
+    </g>
+  </g>
+  <text x="42" y="448" fill="#F2F6FC" font-family="Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="3">LUMEN SITE</text>
+  <text x="42" y="472" fill="#8B9BB4" font-family="Arial, sans-serif" font-size="10" letter-spacing="2">EDITORIAL DIGITAL EXPERIENCE</text>
+</svg>

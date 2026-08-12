@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="flow-title flow-desc">
+  <title id="flow-title">Flow Suite</title>
+  <desc id="flow-desc">Abstract workflow automation canvas with connected modules.</desc>
+  <defs>
+    <linearGradient id="flow-bg" x1="72" y1="16" x2="734" y2="484" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D2137"/>
+      <stop offset=".5" stop-color="#07111F"/>
+      <stop offset="1" stop-color="#03070E"/>
+    </linearGradient>
+    <linearGradient id="flow-accent" x1="207" y1="119" x2="607" y2="377" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#70F5EA"/>
+      <stop offset=".48" stop-color="#00C2B8"/>
+      <stop offset="1" stop-color="#3D7EFF"/>
+    </linearGradient>
+    <pattern id="flow-dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#8B9BB4" opacity=".12"/>
+    </pattern>
+    <filter id="flow-glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+  <rect width="800" height="500" rx="24" fill="url(#flow-bg)"/>
+  <rect width="800" height="500" rx="24" fill="url(#flow-dots)"/>
+  <path d="M197 161C260 161 260 226 319 226h50c55 0 50 80 105 80h98" fill="none" stroke="#00C2B8" stroke-width="15" stroke-opacity=".08" filter="url(#flow-glow)"/>
+  <g fill="none" stroke="url(#flow-accent)" stroke-width="2">
+    <path d="M199 161h58c38 0 30 65 68 65h44"/>
+    <path d="M369 226h39c38 0 28 80 67 80h97"/>
+    <path d="M369 226h45c37 0 27-74 64-74h74"/>
+    <path d="M199 332h55c40 0 31-106 71-106"/>
+  </g>
+  <g>
+    <g transform="translate(130 126)">
+      <rect width="108" height="70" rx="12" fill="#0E1A2C" stroke="#70F5EA" stroke-opacity=".55"/>
+      <circle cx="24" cy="24" r="8" fill="#00C2B8"/>
+      <rect x="42" y="20" width="43" height="7" rx="3.5" fill="#F2F6FC" opacity=".74"/>
+      <rect x="20" y="45" width="66" height="5" rx="2.5" fill="#8B9BB4" opacity=".42"/>
+    </g>
+    <g transform="translate(310 191)">
+      <rect width="118" height="70" rx="12" fill="#0E1A2C" stroke="#00C2B8" stroke-opacity=".6"/>
+      <path d="M28 43l14-14 13 10 17-20 17 13" fill="none" stroke="url(#flow-accent)" stroke-width="3"/>
+    </g>
+    <g transform="translate(534 117)">
+      <rect width="120" height="70" rx="12" fill="#0E1A2C" stroke="#3D7EFF" stroke-opacity=".55"/>
+      <circle cx="31" cy="35" r="13" fill="#3D7EFF" opacity=".28"/>
+      <rect x="55" y="27" width="42" height="6" rx="3" fill="#F2F6FC" opacity=".65"/>
+      <rect x="55" y="40" width="29" height="5" rx="2.5" fill="#8B9BB4" opacity=".4"/>
+    </g>
+    <g transform="translate(554 271)">
+      <rect width="118" height="70" rx="12" fill="#0E1A2C" stroke="#00C2B8" stroke-opacity=".55"/>
+      <rect x="21" y="21" width="76" height="7" rx="3.5" fill="#00C2B8" opacity=".62"/>
+      <rect x="21" y="42" width="52" height="6" rx="3" fill="#8B9BB4" opacity=".4"/>
+    </g>
+    <g transform="translate(128 297)">
+      <rect width="110" height="70" rx="12" fill="#0E1A2C" stroke="#3D7EFF" stroke-opacity=".48"/>
+      <circle cx="28" cy="35" r="11" fill="none" stroke="#3D7EFF" stroke-width="3"/>
+      <path d="M24 35l3 3 6-7" fill="none" stroke="#70F5EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="51" y="31" width="34" height="7" rx="3.5" fill="#F2F6FC" opacity=".58"/>
+    </g>
+  </g>
+  <text x="42" y="448" fill="#F2F6FC" font-family="Arial, sans-serif" font-size="18" font-weight="600" letter-spacing="3">FLOW SUITE</text>
+  <text x="42" y="472" fill="#8B9BB4" font-family="Arial, sans-serif" font-size="10" letter-spacing="2">CONNECTED WORK AUTOMATION</text>
+</svg>
