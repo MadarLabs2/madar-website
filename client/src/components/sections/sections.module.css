@@ -123,19 +123,41 @@
   position: absolute;
   border: 1px solid rgba(166, 124, 64, 0.28);
   border-radius: 50%;
+  will-change: transform;
 }
 
 .orbit1 {
   width: 80%;
   height: 80%;
   border-color: rgba(166, 124, 64, 0.35);
+  animation: heroSpin 28s linear infinite;
 }
 
 .orbit2 {
   width: 55%;
   height: 55%;
   border-color: rgba(33, 62, 94, 0.2);
+  animation: heroSpinReverse 18s linear infinite;
 }
+
+.orbitDot {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  box-shadow: 0 0 10px rgba(166, 124, 64, 0.65);
+  transform: translate(-50%, -50%);
+}
+
+.orbitDotTL { top: 14%; left: 18%; }
+.orbitDotTR { top: 18%; left: 82%; }
+.orbitDotBR { top: 84%; left: 78%; }
+.orbitDotBL { top: 78%; left: 16%; }
+
+.orbitDotTop { top: 0%; left: 50%; }
+.orbitDotRight { top: 50%; left: 100%; }
+.orbitDotBottom { top: 100%; left: 50%; }
 
 .core {
   position: relative;
@@ -151,6 +173,23 @@
   font-weight: 800;
   letter-spacing: 0.08em;
   font-size: 0.85rem;
+  animation: heroCorePulse 3.2s ease-in-out infinite;
+}
+
+.orbitArm {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+  will-change: transform;
+  animation: heroSpin 36s linear infinite;
+}
+
+.flowCardSlot {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .flowCard {
@@ -168,6 +207,19 @@
   white-space: nowrap;
 }
 
+.flowCardSlot .flowCard {
+  position: relative;
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
+}
+
+.flowCardSpin {
+  will-change: transform;
+  animation: heroSpinReverse 36s linear infinite;
+}
+
 .flow0 { top: 8%; left: 12%; }
 .flow1 { top: 22%; right: 4%; }
 .flow2 { bottom: 26%; left: 2%; }
@@ -180,6 +232,29 @@
   border-radius: 50%;
   background: var(--color-primary);
   box-shadow: 0 0 10px rgba(166, 124, 64, 0.55);
+}
+
+@keyframes heroSpin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes heroSpinReverse {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
+}
+
+@keyframes heroCorePulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.045); }
+}
+
+.visualStatic .orbit1,
+.visualStatic .orbit2,
+.visualStatic .orbitArm,
+.visualStatic .flowCardSpin,
+.visualStatic .core {
+  animation: none;
 }
 
 .background {
@@ -871,6 +946,14 @@
   .track,
   .projectTrack {
     animation: none;
+  }
+
+  .orbit1,
+  .orbit2,
+  .orbitArm,
+  .flowCardSpin,
+  .core {
+    animation: none !important;
   }
 
   .projectMarquee {

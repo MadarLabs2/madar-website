@@ -49,39 +49,53 @@ function HeroVisual() {
   }, [rawX, rawY, reduced, isTouch])
 
   return (
-    <motion.div ref={ref} className={styles.visual} style={isTouch ? undefined : { x, y }}>
+    <motion.div
+      ref={ref}
+      className={`${styles.visual} ${reduced ? styles.visualStatic : ''}`}
+      style={isTouch || reduced ? undefined : { x, y }}
+    >
       <div className={styles.visualGlow} />
-      <motion.div
-        className={`${styles.orbit} ${styles.orbit1}`}
-        animate={reduced ? {} : { rotate: 360 }}
-        transition={{ duration: 28, repeat: Infinity, ease: 'linear' }}
-      />
-      <motion.div
-        className={`${styles.orbit} ${styles.orbit2}`}
-        animate={reduced ? {} : { rotate: -360 }}
-        transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
-      />
+
+      <div className={`${styles.orbit} ${styles.orbit1}`}>
+        <i className={`${styles.orbitDot} ${styles.orbitDotTL}`} />
+        <i className={`${styles.orbitDot} ${styles.orbitDotTR}`} />
+        <i className={`${styles.orbitDot} ${styles.orbitDotBR}`} />
+        <i className={`${styles.orbitDot} ${styles.orbitDotBL}`} />
+      </div>
+
+      <div className={`${styles.orbit} ${styles.orbit2}`}>
+        <i className={`${styles.orbitDot} ${styles.orbitDotTop}`} />
+        <i className={`${styles.orbitDot} ${styles.orbitDotRight}`} />
+        <i className={`${styles.orbitDot} ${styles.orbitDotBottom}`} />
+      </div>
+
       <div className={styles.core}>MADAR</div>
-      {nodes.map((node, i) => (
-        <motion.div
-          className={`${styles.flowCard} ${styles[`flow${i}`]}`}
-          key={node}
-          animate={reduced ? {} : { y: [0, -6, 0] }}
-          transition={{ duration: 3.2 + i * 0.3, repeat: Infinity, delay: i * 0.18 }}
-        >
-          {t(`hero.nodes.${node}`)}
-        </motion.div>
-      ))}
-      {!isTouch &&
-        Array.from({ length: 10 }).map((_, i) => (
-          <motion.i
-            key={i}
-            className={styles.particle}
-            style={{ left: `${10 + (i * 37) % 80}%`, top: `${12 + (i * 53) % 76}%` }}
-            animate={reduced ? {} : { opacity: [0.2, 1, 0.2], scale: [1, 1.6, 1] }}
-            transition={{ duration: 1.8 + (i % 4) * 0.35, repeat: Infinity, delay: i * 0.1 }}
-          />
-        ))}
+
+      {nodes.map((node, i) => {
+        if (reduced) {
+          return (
+            <div className={`${styles.flowCard} ${styles[`flow${i}`]}`} key={node}>
+              {t(`hero.nodes.${node}`)}
+            </div>
+          )
+        }
+
+        const delay = `${(-(36 * i) / nodes.length).toFixed(3)}s`
+
+        return (
+          <div
+            className={styles.orbitArm}
+            key={node}
+            style={{ animationDelay: delay }}
+          >
+            <div className={styles.flowCardSlot}>
+              <div className={`${styles.flowCard} ${styles.flowCardSpin}`} style={{ animationDelay: delay }}>
+                {t(`hero.nodes.${node}`)}
+              </div>
+            </div>
+          </div>
+        )
+      })}
     </motion.div>
   )
 }
