@@ -26,3 +26,4 @@ export default function AnimatedText({ text, as: Tag = 'div', className, delay =
     </Tag>
   )
 }
+//aa
