@@ -57,7 +57,7 @@ export default function ProjectMarquee({ items = [], label }) {
       window.clearTimeout(resumeTimerRef.current)
       resumeTimerRef.current = window.setTimeout(() => {
         pausedRef.current = false
-      }, 3000)
+      }, 2000)
     }
 
     let frame = 0
