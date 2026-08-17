@@ -75,8 +75,8 @@ export default function Footer() {
         <div>
           <h3 className={styles.footerTitle}>{t('footer.contactDetails')}</h3>
           <div className={styles.footerContact}>
-            <a href="mailto:hello@madar.digital">
-              <bdi dir="ltr">hello@madar.digital</bdi>
+            <a href="mailto:hello@madar-il.com">
+              <bdi dir="ltr">hello@madar-il.com</bdi>
             </a>
             <a href="tel:+972547267713">
               <bdi dir="ltr">+972 54-7267713</bdi>

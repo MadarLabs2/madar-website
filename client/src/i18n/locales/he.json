@@ -665,7 +665,7 @@
               },
               {
                 "label": "אימייל",
-                "value": "hello@madar.digital",
+                "value": "hello@madar-il.com",
                 "dir": "ltr"
               },
               {
@@ -924,7 +924,7 @@
           },
           {
             "type": "p",
-            "text": "למימוש זכויות, פנו אלינו ב־hello@madar.digital. נשתדל להשיב בתוך 30 יום, בכפוף לדרישות הדין."
+            "text": "למימוש זכויות, פנו אלינו ב־hello@madar-il.com. נשתדל להשיב בתוך 30 יום, בכפוף לדרישות הדין."
           }
         ]
       },
@@ -933,7 +933,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "אם ברצונכם לבקש מחיקת מידע אישי ממערכותינו, שלחו בקשה ל־hello@madar.digital וציינו את הפרטים שאפשרו לנו לאתר את הפנייה (למשל אימייל או טלפון שבהם השתמשתם)."
+            "text": "אם ברצונכם לבקש מחיקת מידע אישי ממערכותינו, שלחו בקשה ל־hello@madar-il.com וציינו את הפרטים שאפשרו לנו לאתר את הפנייה (למשל אימייל או טלפון שבהם השתמשתם)."
           },
           {
             "type": "p",
@@ -985,7 +985,7 @@
               },
               {
                 "label": "אימייל",
-                "value": "hello@madar.digital",
+                "value": "hello@madar-il.com",
                 "dir": "ltr"
               },
               {
@@ -1046,7 +1046,7 @@
               },
               {
                 "label": "אימייל",
-                "value": "hello@madar.digital"
+                "value": "hello@madar-il.com"
               },
               {
                 "label": "טלפון",
@@ -1348,7 +1348,7 @@
               },
               {
                 "label": "אימייל",
-                "value": "hello@madar.digital"
+                "value": "hello@madar-il.com"
               },
               {
                 "label": "טלפון",

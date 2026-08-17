@@ -16,7 +16,7 @@ export default function LanguageSwitcher({ onChange, align = 'end' }) {
   const [open, setOpen] = useState(false)
   const rootRef = useRef(null)
   const menuId = useId()
-  const current = (i18n.resolvedLanguage || i18n.language || 'en').split('-')[0]
+  const current = (i18n.resolvedLanguage || i18n.language || 'he').split('-')[0]
 
   const change = async (language) => {
     await i18n.changeLanguage(language.code)

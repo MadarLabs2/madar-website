@@ -665,7 +665,7 @@
               },
               {
                 "label": "Email",
-                "value": "hello@madar.digital",
+                "value": "hello@madar-il.com",
                 "dir": "ltr"
               },
               {
@@ -924,7 +924,7 @@
           },
           {
             "type": "p",
-            "text": "To exercise your rights, contact hello@madar.digital. We aim to respond within 30 days, subject to legal requirements."
+            "text": "To exercise your rights, contact hello@madar-il.com. We aim to respond within 30 days, subject to legal requirements."
           }
         ]
       },
@@ -933,7 +933,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "To request deletion of personal information, email hello@madar.digital and include details that help us locate your request (such as the email or phone you used)."
+            "text": "To request deletion of personal information, email hello@madar-il.com and include details that help us locate your request (such as the email or phone you used)."
           },
           {
             "type": "p",
@@ -985,7 +985,7 @@
               },
               {
                 "label": "Email",
-                "value": "hello@madar.digital",
+                "value": "hello@madar-il.com",
                 "dir": "ltr"
               },
               {
@@ -1046,7 +1046,7 @@
               },
               {
                 "label": "Email",
-                "value": "hello@madar.digital"
+                "value": "hello@madar-il.com"
               },
               {
                 "label": "Phone",
@@ -1348,7 +1348,7 @@
               },
               {
                 "label": "Email",
-                "value": "hello@madar.digital"
+                "value": "hello@madar-il.com"
               },
               {
                 "label": "Phone",

@@ -15,13 +15,13 @@ i18n
       ar: { translation: ar },
       he: { translation: he },
     },
-    fallbackLng: 'en',
-    supportedLngs: ['en', 'ar', 'he'],
+    fallbackLng: 'he',
+    supportedLngs: ['he', 'ar', 'en'],
     nonExplicitSupportedLngs: true,
     keySeparator: '.',
     interpolation: { escapeValue: false },
     detection: {
-      order: ['localStorage', 'navigator'],
+      order: ['localStorage'],
       caches: ['localStorage'],
       lookupLocalStorage: 'i18nextLng',
     },
@@ -30,7 +30,7 @@ i18n
   });
 
 const applyDocumentLanguage = (language) => {
-  const code = (language || 'en').split('-')[0];
+  const code = (language || 'he').split('-')[0];
   document.documentElement.lang = code;
   document.documentElement.dir = ['ar', 'he'].includes(code) ? 'rtl' : 'ltr';
 };

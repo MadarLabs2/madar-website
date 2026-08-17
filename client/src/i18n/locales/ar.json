@@ -665,7 +665,7 @@
               },
               {
                 "label": "البريد",
-                "value": "hello@madar.digital",
+                "value": "hello@madar-il.com",
                 "dir": "ltr"
               },
               {
@@ -924,7 +924,7 @@
           },
           {
             "type": "p",
-            "text": "لممارسة حقوقكم راسلونا على hello@madar.digital. نسعى للرد خلال 30 يوماً، وفقاً لمتطلبات القانون."
+            "text": "لممارسة حقوقكم راسلونا على hello@madar-il.com. نسعى للرد خلال 30 يوماً، وفقاً لمتطلبات القانون."
           }
         ]
       },
@@ -933,7 +933,7 @@
         "blocks": [
           {
             "type": "p",
-            "text": "لطلب حذف معلومات شخصية، أرسلوا طلباً إلى hello@madar.digital مع تفاصيل تساعدنا على تحديد طلبكم (مثل البريد أو الهاتف المستخدم)."
+            "text": "لطلب حذف معلومات شخصية، أرسلوا طلباً إلى hello@madar-il.com مع تفاصيل تساعدنا على تحديد طلبكم (مثل البريد أو الهاتف المستخدم)."
           },
           {
             "type": "p",
@@ -985,7 +985,7 @@
               },
               {
                 "label": "البريد",
-                "value": "hello@madar.digital",
+                "value": "hello@madar-il.com",
                 "dir": "ltr"
               },
               {
@@ -1046,7 +1046,7 @@
               },
               {
                 "label": "البريد",
-                "value": "hello@madar.digital"
+                "value": "hello@madar-il.com"
               },
               {
                 "label": "الهاتف",
@@ -1348,7 +1348,7 @@
               },
               {
                 "label": "البريد",
-                "value": "hello@madar.digital"
+                "value": "hello@madar-il.com"
               },
               {
                 "label": "الهاتف",

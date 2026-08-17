@@ -98,7 +98,7 @@ export default async function handler(req, res) {
       receivedAt: new Date().toISOString(),
     }
 
-    const to = process.env.CONTACT_TO_EMAIL || process.env.CONTACT_EMAIL || 'hello@madar.digital'
+    const to = process.env.CONTACT_TO_EMAIL || process.env.CONTACT_EMAIL || 'hello@madar-il.com'
     const from = process.env.CONTACT_FROM_EMAIL || 'MADAR <onboarding@resend.dev>'
 
     const response = await fetch('https://api.resend.com/emails', {

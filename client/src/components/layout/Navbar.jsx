@@ -45,7 +45,7 @@ export default function Navbar() {
   const [servicesOpen, setServicesOpen] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false)
-  const isRtl = ['ar', 'he'].includes((i18n.resolvedLanguage || 'en').split('-')[0])
+  const isRtl = ['ar', 'he'].includes((i18n.resolvedLanguage || 'he').split('-')[0])
 
   useEffect(() => {
     const update = () => setScrolled(window.scrollY > 16)
@@ -260,8 +260,8 @@ export default function Navbar() {
               <Button to="/contact" fullWidth>
                 {t('common.startProject')}
               </Button>
-              <a className={styles.mobileMail} href="mailto:hello@madar.digital">
-                hello@madar.digital
+              <a className={styles.mobileMail} href="mailto:hello@madar-il.com">
+                hello@madar-il.com
               </a>
             </div>
           </motion.div>
