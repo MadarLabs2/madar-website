@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useEffect, useMemo, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import ProjectCard from '../ui/ProjectCard'
 import useMediaQuery from '../../hooks/useMediaQuery'
@@ -23,9 +23,12 @@ function Card({ project, t, tabIndex }) {
 }
 
 export default function ProjectMarquee({ items = [], label }) {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const isMobile = useMediaQuery('(max-width: 899px)')
   const reduced = useReducedMotion()
+  const scrollerRef = useRef(null)
+  const pausedRef = useRef(false)
+  const resumeTimerRef = useRef(0)
 
   const loop = useMemo(() => {
     if (!items.length) return []
@@ -39,6 +42,59 @@ export default function ProjectMarquee({ items = [], label }) {
       duplicate: index >= sequence.length,
     }))
   }, [items])
+
+  useEffect(() => {
+    if (!isMobile || reduced) return undefined
+    const el = scrollerRef.current
+    if (!el) return undefined
+
+    const pause = () => {
+      pausedRef.current = true
+      window.clearTimeout(resumeTimerRef.current)
+    }
+
+    const scheduleResume = () => {
+      window.clearTimeout(resumeTimerRef.current)
+      resumeTimerRef.current = window.setTimeout(() => {
+        pausedRef.current = false
+      }, 3000)
+    }
+
+    let frame = 0
+    const tick = () => {
+      if (!pausedRef.current) {
+        const half = el.scrollWidth / 2
+        if (half > 0) {
+          el.scrollLeft += 0.55
+          if (el.scrollLeft >= half) {
+            el.scrollLeft -= half
+          }
+        }
+      }
+      frame = window.requestAnimationFrame(tick)
+    }
+
+    frame = window.requestAnimationFrame(tick)
+    el.addEventListener('pointerdown', pause)
+    el.addEventListener('touchstart', pause, { passive: true })
+    el.addEventListener('wheel', pause, { passive: true })
+    el.addEventListener('pointerup', scheduleResume)
+    el.addEventListener('pointercancel', scheduleResume)
+    el.addEventListener('touchend', scheduleResume)
+    el.addEventListener('touchcancel', scheduleResume)
+
+    return () => {
+      window.cancelAnimationFrame(frame)
+      window.clearTimeout(resumeTimerRef.current)
+      el.removeEventListener('pointerdown', pause)
+      el.removeEventListener('touchstart', pause)
+      el.removeEventListener('wheel', pause)
+      el.removeEventListener('pointerup', scheduleResume)
+      el.removeEventListener('pointercancel', scheduleResume)
+      el.removeEventListener('touchend', scheduleResume)
+      el.removeEventListener('touchcancel', scheduleResume)
+    }
+  }, [isMobile, reduced, loop.length])
 
   if (!items.length) return null
 
@@ -56,6 +112,7 @@ export default function ProjectMarquee({ items = [], label }) {
 
   return (
     <div
+      ref={scrollerRef}
       className={`${styles.projectMarquee} ${reduced ? styles.projectMarqueeStatic : ''}`}
       aria-label={label}
     >
@@ -63,6 +120,7 @@ export default function ProjectMarquee({ items = [], label }) {
         {loop.map(({ project, index, duplicate }) => (
           <div
             className={styles.projectSlide}
+            dir={i18n.dir()}
             key={`${project.id}-${index}`}
             aria-hidden={duplicate || undefined}
           >
