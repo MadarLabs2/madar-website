@@ -43,6 +43,8 @@ export default function ProjectMarquee({ items = [], label }) {
     }))
   }, [items])
 
+  const isRtl = i18n.dir() === 'rtl'
+
   useEffect(() => {
     if (!isMobile || reduced) return undefined
     const el = scrollerRef.current
@@ -60,14 +62,22 @@ export default function ProjectMarquee({ items = [], label }) {
       }, 2000)
     }
 
+    const half = () => el.scrollWidth / 2
+    if (isRtl && half() > 0) {
+      el.scrollLeft = half()
+    }
+
     let frame = 0
     const tick = () => {
       if (!pausedRef.current) {
-        const half = el.scrollWidth / 2
-        if (half > 0) {
-          el.scrollLeft += 0.55
-          if (el.scrollLeft >= half) {
-            el.scrollLeft -= half
+        const midpoint = half()
+        if (midpoint > 0) {
+          if (isRtl) {
+            el.scrollLeft -= 0.55
+            if (el.scrollLeft <= 0) el.scrollLeft += midpoint
+          } else {
+            el.scrollLeft += 0.55
+            if (el.scrollLeft >= midpoint) el.scrollLeft -= midpoint
           }
         }
       }
@@ -94,7 +104,7 @@ export default function ProjectMarquee({ items = [], label }) {
       el.removeEventListener('touchend', scheduleResume)
       el.removeEventListener('touchcancel', scheduleResume)
     }
-  }, [isMobile, reduced, loop.length])
+  }, [isMobile, reduced, loop.length, isRtl])
 
   if (!items.length) return null
 
