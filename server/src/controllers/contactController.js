@@ -1,5 +1,6 @@
 const { body, validationResult } = require('express-validator');
 const { sanitize } = require('../utils/sanitize');
+const { sendContactEmail } = require('../services/contactEmail');
 
 const contactValidation = [
   body('fullName').trim().notEmpty().withMessage('Full name is required').isLength({ max: 120 }),
@@ -7,7 +8,7 @@ const contactValidation = [
   body('email').trim().isEmail().withMessage('Valid email is required').normalizeEmail(),
   body('service').optional({ values: 'falsy' }).trim().isLength({ max: 80 }),
   body('budget').optional({ values: 'falsy' }).trim().isLength({ max: 80 }),
-  body('phone').optional({ values: 'falsy' }).trim().isLength({ max: 40 }),
+  body('phone').trim().notEmpty().withMessage('Phone is required').isLength({ max: 40 }),
   body('message').trim().notEmpty().withMessage('Project description is required').isLength({ min: 10, max: 5000 }),
 ];
 
@@ -27,18 +28,17 @@ const submitContact = async (req, res, next) => {
       businessName: sanitize(req.body.businessName || ''),
       email: sanitize(req.body.email),
       phone: sanitize(req.body.phone || ''),
-      service: sanitize(req.body.service),
+      service: sanitize(req.body.service || ''),
       budget: sanitize(req.body.budget || ''),
       message: sanitize(req.body.message),
       receivedAt: new Date().toISOString(),
     };
 
-    // Persist / email integration can be wired here.
-    // For production readiness we acknowledge and log safely.
+    await sendContactEmail(payload);
+
     if (process.env.NODE_ENV !== 'production') {
-      console.log('[contact]', {
+      console.log('[contact] email sent', {
         email: payload.email,
-        service: payload.service,
         receivedAt: payload.receivedAt,
       });
     }
