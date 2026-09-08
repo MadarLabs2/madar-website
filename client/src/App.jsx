@@ -15,6 +15,7 @@ const Contact = lazy(() => import('./pages/Contact'))
 const FAQ = lazy(() => import('./pages/FAQ'))
 const Privacy = lazy(() => import('./pages/Privacy'))
 const Terms = lazy(() => import('./pages/Terms'))
+const NezarSupport = lazy(() => import('./pages/NezarSupport'))
 const NotFound = lazy(() => import('./pages/NotFound'))
 
 export default function App() {
@@ -28,6 +29,7 @@ export default function App() {
       {ready && (
         <Suspense fallback={null}>
           <Routes>
+            <Route path="support/nezar-barbershop" element={<NezarSupport />} />
             <Route element={<MainLayout />}>
               <Route index element={<Home />} />
               <Route path="about" element={<About />} />
